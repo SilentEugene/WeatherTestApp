@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="temp_units"
+        android:title="@string/temp"
+        android:summary="%s"
+        android:defaultValue="0"
+        android:entries="@array/temp_unit"
+        android:entryValues="@array/temp_values" />
+
+    <ListPreference
+        android:key="wind_units"
+        android:title="@string/wind_speed"
+        android:summary="%s"
+        android:defaultValue="0"
+        android:entries="@array/wind_unit"
+        android:entryValues="@array/wind_values" />
+
+    <ListPreference
+        android:key="pressure_units"
+        android:title="@string/pressure"
+        android:summary="%s"
+        android:defaultValue="0"
+        android:entries="@array/pressure_unit"
+        android:entryValues="@array/pressure_values" />
+
+</PreferenceScreen>
